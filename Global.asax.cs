@@ -16,6 +16,8 @@ namespace Mvc4SPA_Sample
         {
             AreaRegistration.RegisterAllAreas();
 
+
+
             WebApiConfig.Register(GlobalConfiguration.Configuration);
             FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
             RouteConfig.RegisterRoutes(RouteTable.Routes);
